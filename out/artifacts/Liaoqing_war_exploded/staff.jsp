@@ -6,17 +6,16 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page language="java" import="java.util.*" %>
 <%@ page import="javabean.DBAccessBean" %>
 <%@ page import="java.sql.ResultSet" %>
 <html>
 <head>
-    <title>员工信息</title>
+    <title>员工管理</title>
 </head>
 <body>
 <div align="center">
     <form method="post" action="staff_control.jsp">
-        <b>修改员工信息<hr>
+        <b>查询/修改/删除员工信息<hr>
             <table border="3">
                 <tr>
                     <td><b>是否删除</b></td>
@@ -42,8 +41,8 @@
                 <td><input type="text" name="<%=count + "sId"%>" value="<%=rst.getString("sId")%>" readonly="true"> </td>
                 <td><input type="text" name="<%=count + "sName"%>" value="<%=rst.getString("sName")%>"> </td>
                 <td><input type="text" name="<%=count + "sSex"%>" value="<%=rst.getString("sSex")%>"> </td>
-                <td><input type="text" name="<%=count + "sAge"%>" value="<%=rst.getString("sAge")%>"> </td>
-                <td><input type="text" name="<%=count + "sDeparment"%>" value="<%=rst.getString("sDepartment")%>"> </td>
+                <td><input type="number" name="<%=count + "sAge"%>" value="<%=rst.getString("sAge")%>"> </td>
+                <td><input type="text" name="<%=count + "sDepartment"%>" value="<%=rst.getString("sDepartment")%>"> </td>
             </tr>
 
 <%
@@ -72,7 +71,7 @@
                 <tr>
                     <td><input name=sName type = "text"></td>
                     <td><input name=sSex type = "text"></td>
-                    <td><input name=sAge type = "text"></td>
+                    <td><input name=sAge type = "number"></td>
                     <td><input name=sDepartment type = "text"></td>
                 </tr>
             </table>

@@ -23,7 +23,6 @@
         String delete;
         String[] deleteString = request.getParameterValues("checkbox");
         if (deleteString != null) {//删除数据
-            delete = deleteString[0];
             for (int i = 0; i < deleteString.length; i++) {
                 delete = deleteString[i];
                 if (delete != null) {

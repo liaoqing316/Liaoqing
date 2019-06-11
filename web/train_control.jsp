@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: liaoqing
-  Date: 2019-06-10
-  Time: 08:42
+  Date: 2019-06-11
+  Time: 08:11
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,7 +11,7 @@
 <%request.setCharacterEncoding("utf-8");%>
 <html>
 <head>
-    <title>员工管理</title>
+    <title>培训管理</title>
 </head>
 <body>
 <%
@@ -23,11 +23,10 @@
         String delete;
         String[] deleteString = request.getParameterValues("checkbox");
         if (deleteString != null) {//删除数据
-           //delete = deleteString[0];
             for (int i = 0; i < deleteString.length; i++) {
                 delete = deleteString[i];
                 if (delete != null) {
-                    String sql = "delete from staff where sId=" + delete + ";";
+                    String sql = "delete from train where tId=" + delete + ";";
                     db.update(sql);
                 }
             }
@@ -39,13 +38,13 @@
     try {   //更新数据
         int count = (int) session.getAttribute("count");
         for (int i = 0; i <= count; i++) {  //更新数据
-            String sId = request.getParameter(i + "sId");
-            String sName = request.getParameter(i + "sName");
-            String sSex = request.getParameter(i + "sSex");
-            String sAge = request.getParameter(i + "sAge");
-            String sDepartment = request.getParameter(i + "sDepartment");
-          if ((!sSex.equals("")) || (!sAge.equals("")) || (!sDepartment.equals(""))) {
-                String sql = "update staff set sName = '" + sName + "',sSex =' " + sSex + " ',sAge = " + sAge + ",sDepartment = '" + sDepartment +"' where sId=" + sId + ";";
+            String tId = request.getParameter(i + "tId");
+            String tName = request.getParameter(i + "tName");
+            String tSex = request.getParameter(i + "tSex");
+            String tAge = request.getParameter(i + "tAge");
+            String tDepartment = request.getParameter(i + "tDepartment");
+            if ((!tSex.equals("")) || (!tAge.equals("")) || (!tDepartment.equals(""))) {
+                String sql = "update train set tName = '" + tName + "',tSex =' " + tSex + " ',tAge = " + tAge + ",tDepartment = '" + tDepartment +"' where tId=" + tId + ";";
                 db.update(sql);
             }
         }
@@ -54,11 +53,11 @@
     }
 
     try {
-        String sName=request.getParameter("sName");   //添加数据
-        String sSex=request.getParameter("sSex");
-        String sAge=request.getParameter("sAge");
-        String sDepartment=request.getParameter("sDepartment");
-        String sql = "insert into staff values(null,'" + sName + "','"+ sSex +"'," + sAge +",'"+ sDepartment +"');";
+        String tName=request.getParameter("tName");   //添加数据
+        String tSex=request.getParameter("tSex");
+        String tAge=request.getParameter("tAge");
+        String tDepartment=request.getParameter("tDepartment");
+        String sql = "insert into train values(null,'" + tName + "','"+ tSex +"'," + tAge +",'"+ tDepartment +"');";
         db.update(sql);
         db.closeRs();
         db.closeStmt();
@@ -69,7 +68,7 @@
 
     PrintWriter output = response.getWriter();
     output.print("<script>alert('保存完成'); " +
-            "window.location='staff.jsp' </script>");
+            "window.location='train.jsp' </script>");
 
     output.flush();
     output.close();

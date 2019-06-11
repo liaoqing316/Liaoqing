@@ -11,7 +11,7 @@
 <%request.setCharacterEncoding("utf-8");%>
 <html>
 <head>
-    <title>Title</title>
+    <title>员工管理</title>
 </head>
 <body>
 <%
@@ -38,7 +38,6 @@
 
     try {   //更新数据
         int count = (int) session.getAttribute("count");
-        session.removeAttribute("count");
         for (int i = 0; i <= count; i++) {  //更新数据
             String sId = request.getParameter(i + "sId");
             String sName = request.getParameter(i + "sName");
@@ -49,11 +48,6 @@
                 String sql = "update staff set sName = '" + sName + "',sSex =' " + sSex + " ',sAge = " + sAge + ",sDepartment = '" + sDepartment +"' where sId=" + sId + ";";
                 db.update(sql);
             }
-           /* db.closeRs();
-            db.closeStmt();
-            db.closeConn();
-            */
-
         }
     }catch (Exception e) {
         e.printStackTrace();

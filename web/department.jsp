@@ -16,7 +16,7 @@
 <body>
 <div align="center">
     <form method="post" action="department_control.jsp">
- <b>修改部门信息<hr>
+ <b>查询/删除部门信息<hr>
      <table border="3">
          <tr>
              <td><b>是否删除</b></td>

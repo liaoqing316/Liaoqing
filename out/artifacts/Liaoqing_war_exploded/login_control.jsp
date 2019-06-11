@@ -12,6 +12,7 @@
 		out.print(isValid);
 		if(isValid){
 			session.setAttribute("username",username);
+			session.setAttribute("password",password);
 			response.sendRedirect("menu.jsp");
 		}
 		else{
