@@ -7,43 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecbb1d58-a6e4-40c4-a4b8-9e5bfdbbf31e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/exit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/hire.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/hire_control.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pay.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pay_control.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/rp.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/rp_control.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/system.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/system_control.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/train.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/train_control.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user_change.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user_change_control.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/789c3a28-d030-48bb-8985-87916697099e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/789c3a28-d030-48bb-8985-87916697099e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/WEB-INF/classes/javabean/DbProcess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/department_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/department_control.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/login_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/login_control.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/staff.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/staff.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/staff_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/staff_control.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/sumbit_result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javabean/DbProcess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/javabean/DbProcess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/department.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/department.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/department_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/department_control.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login_control.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register_control.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/staff.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/staff.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/staff_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/staff_control.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sumbit_result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/department.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/department.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/register_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Liaoqing_war_exploded/register_control.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="90">
+              <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -410,12 +376,20 @@
       <workItem from="1560171093678" duration="6346000" />
       <workItem from="1560211334283" duration="11792000" />
       <workItem from="1560234879148" duration="10973000" />
-      <workItem from="1560257410911" duration="2685000" />
+      <workItem from="1560257410911" duration="2920000" />
     </task>
+    <task id="LOCAL-00001" summary="修复一些小bug">
+      <created>1560260265118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560260265118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107431000" />
+    <option name="totallyTimeSpent" value="107666000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,6 +402,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1631664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -507,7 +482,8 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="修复一些小bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复一些小bug" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Liaoqing$Tomcat_9_0_19.ic" NAME="Tomcat 9.0.19 Coverage Results" MODIFIED="1559636499346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -742,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="90">
+          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
         </state>
       </provider>
     </entry>
